@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUNE CORPORETE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 0;
+            background: url('kalyan-image.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+
+        .header h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        /* Секція для алкоголю */
+        .alcohol-section {
+            width: 40%;
+        }
+
+        .alcohol-section h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .alcohol-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .alcohol-list li {
+            background-color: #444;
+            margin-bottom: 15px;
+            padding: 15px;
+            color: #fff;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        .alcohol-list li p {
+            font-size: 16px;
+            color: #ccc;
+        }
+
+        .alcohol-list li ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        .alcohol-list li ul li {
+            background-color: #555;
+            margin-bottom: 8px;
+            padding: 8px;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        /* Секція для коктейлів */
+        .cocktail-section {
+            width: 55%;
+        }
+
+        .cocktail-section h3 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .cocktail-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .cocktail-item {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .cocktail-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .cocktail-item h4 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .cocktail-item p {
+            font-size: 16px;
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #444;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>JUNE CORPORETE</h1>
+        <p>Бар кальянної з найкращими напоями</p>
+    </div>
+
+    <div class="content">
+        <h2>Меню алкоголю та коктейлів</h2>
+
+        <div class="menu-container">
+            <!-- Секція алкоголю -->
+            <div class="alcohol-section">
+                <h3>Алкоголь</h3>
+                <ul class="alcohol-list">
+                    <li>
+                        <h4>Ром</h4>
+                        <p>Орієнтовна ціна: 250 грн</p>
+                        <ul>
+                            <li>Капітан Морган</li>
+                            <li>Бомбей</li>
+                            <li>Нельсон</li>
+                            <li>Маємі</li>
+                            <li>Санта Тереза</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Віскі</h4>
+                        <p>Орієнтовна ціна: 300 грн</p>
+                        <ul>
+                            <li>Джонні Вокер</li>
+                            <li>Макаллан</li>
+                            <li>Гленфіддих</li>
+                            <li>Балвенні</li>
+                            <li>Ірландський Міст</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Текіла</h4>
+                        <p>Орієнтовна ціна: 220 грн</p>
+                        <ul>
+                            <li>Патрон</li>
+                            <li>Саут Портер</li>
+                            <li>Слота</li>
+                            <li>Космік</li>
+                            <li>Серро Негро</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Джин</h4>
+                        <p>Орієнтовна ціна: 270 грн</p>
+                        <ul>
+                            <li>Бомбей Сапфір</li>
+                            <li>Гіннес</li>
+                            <li>Джин Лейксайд</li>
+                            <li>Нортумберленд</li>
+                            <li>Скотч Гіммель</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Горілка</h4>
+                        <p>Орієнтовна ціна: 180 грн</p>
+                        <ul>
+                            <li>Хортиця</li>
+                            <li>Русский Стандарт</li>
+                            <li>Абсолют</li>
+                            <li>Білочка</li>
+                            <li>Чорна Буря</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Пиво</h4>
+                        <p>Орієнтовна ціна: 80 грн</p>
+                        <ul>
+                            <li>Швидка Риба</li>
+                            <li>Жигулівське</li>
+                            <li>Чернігівське</li>
+                            <li>Львівське</li>
+                            <li>Хмільне</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Лікери</h4>
+                        <p>Орієнтовна ціна: 150 грн</p>
+                        <ul>
+                            <li>Бейліс</li>
+                            <li>Джек Деніелс Лікер</li>
+                            <li>Лімончелло</li>
+                            <li>Каліпсо</li>
+                            <li>Грін Дрим</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Секція коктейлів -->
+            <div class="cocktail-section">
+                <h3>Коктейлі</h3>
+                <div class="cocktail-list">
+                    <div class="cocktail-item">
+                        <img src="cocktail_1.jpg" alt="Мохіто">
+                        <h4>Мохіто</h4>
+                        <p>Орієнтовна ціна: 150 грн</p>
+                    </div>
+                    <div class="cocktail-item">
+                        <img src="cocktail_2.jpg" alt="Космополітен">
+                        <h4>Космополітен</h4>
+                        <p>Орієнтовна ціна: 180 грн</p>
+                    </div>
+                    <div class="cocktail-item">
+                        <img src="cocktail_3.jpg" alt="Маргарита">
+                        <h4>Маргарита</h4>
+                        <p>Орієнтовна ціна: 170 грн</p>
+                    </div>
+                    <div class="cocktail-item">
+                        <img src="cocktail_4.jpg" alt="Піна колада">
+                        <h4>Піна колада</h4>
+                        <p>Орієнтовна ціна: 160 грн</p>
+                    </div>
+                    <div class="cocktail-item">
+                        <img src="cocktail_5.jpg" alt="Дайкірі">
+                        <h4>Дайкірі</h4>
+                        <p>Орієнтовна ціна: 190 грн</p>
+                    </div>
+                    <div class="cocktail-item">
+                        <img src="cocktail_6
