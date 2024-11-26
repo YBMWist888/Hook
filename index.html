@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legend HOOK</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            background: #000;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        .contacts {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .contacts p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .menu {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            text-align: left;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .menu h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+
+        .menu-item {
+            flex: 1 1 45%;
+            margin-bottom: 20px;
+        }
+
+        .menu-item h4 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+
+        .menu-item ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-item ul li {
+            margin: 3px 0; /* Менший відступ між елементами */
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cocktails {
+            flex: 1 1 45%;
+            text-align: center;
+        }
+
+        .cocktail-item {
+            display: inline-block;
+            margin: 10px;
+            width: 5cm;
+            text-align: center;
+        }
+
+        .cocktail-item img {
+            width: 100%;
+            height: 3cm;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        .cocktail-item .name {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        .cocktail-item .price {
+            font-size: 14px;
+            margin-top: 2px;
+            color: #aaa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="hookah.jpg" alt="Фон з кальяном">
+        <div class="contacts">
+            <p>Телефон: +38 067 123 4567</p>
+            <p>Адреса: Київ, вул. Шевченка, 22</p>
+        </div>
+        <div class="menu">
+            <div class="menu-item">
+                <h3>Меню Бару</h3>
+                <h4>Ром</h4>
+                <ul>
+                    <li><span>Captain Morgan</span> <span>120 грн/100 мл</span></li>
+                    <li><span>Bacardi Carta Blanca</span> <span>130 грн/100 мл</span></li>
+                    <li><span>Malibu</span> <span>140 грн/100 мл</span></li>
+                    <li><span>Havana Club</span> <span>150 грн/100 мл</span></li>
+                    <li><span>Diplomatico</span> <span>200 грн/100 мл</span></li>
+                </ul>
+                <h4>Текіла</h4>
+                <ul>
+                    <li><span>Olmeca Blanco</span> <span>150 грн/100 мл</span></li>
+                    <li><span>Olmeca Gold</span> <span>160 грн/100 мл</span></li>
+                    <li><span>Don Julio Blanco</span> <span>180 грн/100 мл</span></li>
+                    <li><span>Don Julio Reposado</span> <span>200 грн/100 мл</span></li>
+                    <li><span>Jose Cuervo Silver</span> <span>140 грн/100 мл</span></li>
+                </ul>
+            </div>
+            <div class="cocktails">
+                <h4>Коктейлі</h4>
+                <div class="cocktail-item">
+                    <img src="cocktail1.jpg" alt="Коктейль 1">
+                    <div class="name">Коктейль 1</div>
+                    <div class="price">200 грн</div>
+                </div>
+                <div class="cocktail-item">
+                    <img src="cocktail2.jpg" alt="Коктейль 2">
+                    <div class="name">Коктейль 2</div>
+                    <div class="price">200 грн</div>
+                </div>
+                <div class="cocktail-item">
+                    <img src="cocktail3.jpg" alt="Коктейль 3">
+                    <div class="name">Коктейль 3</div>
+                    <div class="price">200 грн</div>
+                </div>
+                <div class="cocktail-item">
+                    <img src="cocktail4.jpg" alt="Коктейль 4">
+                    <div class="name">Коктейль 4</div>
+                    <div class="price">200 грн</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <p>&copy; 2024 Legend HOOK. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
